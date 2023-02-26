@@ -16,6 +16,8 @@
 		104A7FB229A2005400B46D92 /* LongPressGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A7FB129A2005400B46D92 /* LongPressGestures.swift */; };
 		104A7FB929A24CBF00B46D92 /* MagnificationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A7FB829A24CBF00B46D92 /* MagnificationGestures.swift */; };
 		104A7FBB29A25FEE00B46D92 /* RotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A7FBA29A25FEE00B46D92 /* RotationGestures.swift */; };
+		10CB94FA29AB60B60015A7E3 /* ScrollViewReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */; };
+		10CB94FC29AB8A8A0015A7E3 /* GeometryReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		104A7FB129A2005400B46D92 /* LongPressGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestures.swift; sourceTree = "<group>"; };
 		104A7FB829A24CBF00B46D92 /* MagnificationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestures.swift; sourceTree = "<group>"; };
 		104A7FBA29A25FEE00B46D92 /* RotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestures.swift; sourceTree = "<group>"; };
+		10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaders.swift; sourceTree = "<group>"; };
+		10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				104A7FBA29A25FEE00B46D92 /* RotationGestures.swift */,
 				102F07CB29A5F5EB000AF1BD /* DragGestures.swift */,
 				102F07CD29A612A5000AF1BD /* DragGestures2.swift */,
+				10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */,
+				10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */,
 				104A7FA729A2001500B46D92 /* Assets.xcassets */,
 				104A7FA929A2001500B46D92 /* Preview Content */,
 			);
@@ -153,11 +159,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				104A7FBB29A25FEE00B46D92 /* RotationGestures.swift in Sources */,
+				10CB94FC29AB8A8A0015A7E3 /* GeometryReaders.swift in Sources */,
 				102F07CC29A5F5EB000AF1BD /* DragGestures.swift in Sources */,
 				104A7FA629A2001200B46D92 /* ContentView.swift in Sources */,
 				102F07CE29A612A5000AF1BD /* DragGestures2.swift in Sources */,
 				104A7FB929A24CBF00B46D92 /* MagnificationGestures.swift in Sources */,
 				104A7FA429A2001200B46D92 /* CompleteSwiftUIProjectApp.swift in Sources */,
+				10CB94FA29AB60B60015A7E3 /* ScrollViewReaders.swift in Sources */,
 				104A7FB229A2005400B46D92 /* LongPressGestures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
