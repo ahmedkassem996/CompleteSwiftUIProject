@@ -22,6 +22,7 @@
 		1058F75929ACE1D400E55029 /* sound1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1058F75729ACE1D400E55029 /* sound1.wav */; };
 		1058F75B29ACFE6600E55029 /* Hapittics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058F75A29ACFE6600E55029 /* Hapittics.swift */; };
 		1058F75D29AD1B6300E55029 /* LocalPushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058F75C29AD1B6300E55029 /* LocalPushNotifications.swift */; };
+		1058F75F29AD370A00E55029 /* HashableSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058F75E29AD370A00E55029 /* HashableSwiftUI.swift */; };
 		10CB94FA29AB60B60015A7E3 /* ScrollViewReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */; };
 		10CB94FC29AB8A8A0015A7E3 /* GeometryReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */; };
 		10CB94FE29AB98FF0015A7E3 /* MultipleSheetsTut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94FD29AB98FF0015A7E3 /* MultipleSheetsTut.swift */; };
@@ -44,6 +45,7 @@
 		1058F75729ACE1D400E55029 /* sound1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound1.wav; sourceTree = "<group>"; };
 		1058F75A29ACFE6600E55029 /* Hapittics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hapittics.swift; sourceTree = "<group>"; };
 		1058F75C29AD1B6300E55029 /* LocalPushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushNotifications.swift; sourceTree = "<group>"; };
+		1058F75E29AD370A00E55029 /* HashableSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableSwiftUI.swift; sourceTree = "<group>"; };
 		10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaders.swift; sourceTree = "<group>"; };
 		10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaders.swift; sourceTree = "<group>"; };
 		10CB94FD29AB98FF0015A7E3 /* MultipleSheetsTut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsTut.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				1058F75529ACE12100E55029 /* Sounds */,
 				1058F75A29ACFE6600E55029 /* Hapittics.swift */,
 				1058F75C29AD1B6300E55029 /* LocalPushNotifications.swift */,
+				1058F75E29AD370A00E55029 /* HashableSwiftUI.swift */,
 				104A7FA729A2001500B46D92 /* Assets.xcassets */,
 				104A7FA929A2001500B46D92 /* Preview Content */,
 			);
@@ -192,6 +195,7 @@
 				104A7FBB29A25FEE00B46D92 /* RotationGestures.swift in Sources */,
 				10CB94FE29AB98FF0015A7E3 /* MultipleSheetsTut.swift in Sources */,
 				10CB94FC29AB8A8A0015A7E3 /* GeometryReaders.swift in Sources */,
+				1058F75F29AD370A00E55029 /* HashableSwiftUI.swift in Sources */,
 				1058F75429ACD6F900E55029 /* Sounds.swift in Sources */,
 				1058F75D29AD1B6300E55029 /* LocalPushNotifications.swift in Sources */,
 				102F07CC29A5F5EB000AF1BD /* DragGestures.swift in Sources */,
