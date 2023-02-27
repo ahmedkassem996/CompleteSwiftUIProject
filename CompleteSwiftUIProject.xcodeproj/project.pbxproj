@@ -17,6 +17,9 @@
 		104A7FB929A24CBF00B46D92 /* MagnificationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A7FB829A24CBF00B46D92 /* MagnificationGestures.swift */; };
 		104A7FBB29A25FEE00B46D92 /* RotationGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A7FBA29A25FEE00B46D92 /* RotationGestures.swift */; };
 		1058F75229ACC00F00E55029 /* Masks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058F75129ACC00F00E55029 /* Masks.swift */; };
+		1058F75429ACD6F900E55029 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058F75329ACD6F900E55029 /* Sounds.swift */; };
+		1058F75829ACE1D400E55029 /* sound2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1058F75629ACE1D400E55029 /* sound2.wav */; };
+		1058F75929ACE1D400E55029 /* sound1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1058F75729ACE1D400E55029 /* sound1.wav */; };
 		10CB94FA29AB60B60015A7E3 /* ScrollViewReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */; };
 		10CB94FC29AB8A8A0015A7E3 /* GeometryReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */; };
 		10CB94FE29AB98FF0015A7E3 /* MultipleSheetsTut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94FD29AB98FF0015A7E3 /* MultipleSheetsTut.swift */; };
@@ -34,6 +37,9 @@
 		104A7FB829A24CBF00B46D92 /* MagnificationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestures.swift; sourceTree = "<group>"; };
 		104A7FBA29A25FEE00B46D92 /* RotationGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestures.swift; sourceTree = "<group>"; };
 		1058F75129ACC00F00E55029 /* Masks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masks.swift; sourceTree = "<group>"; };
+		1058F75329ACD6F900E55029 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		1058F75629ACE1D400E55029 /* sound2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound2.wav; sourceTree = "<group>"; };
+		1058F75729ACE1D400E55029 /* sound1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound1.wav; sourceTree = "<group>"; };
 		10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaders.swift; sourceTree = "<group>"; };
 		10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaders.swift; sourceTree = "<group>"; };
 		10CB94FD29AB98FF0015A7E3 /* MultipleSheetsTut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsTut.swift; sourceTree = "<group>"; };
@@ -80,6 +86,8 @@
 				10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */,
 				10CB94FD29AB98FF0015A7E3 /* MultipleSheetsTut.swift */,
 				1058F75129ACC00F00E55029 /* Masks.swift */,
+				1058F75329ACD6F900E55029 /* Sounds.swift */,
+				1058F75529ACE12100E55029 /* Sounds */,
 				104A7FA729A2001500B46D92 /* Assets.xcassets */,
 				104A7FA929A2001500B46D92 /* Preview Content */,
 			);
@@ -92,6 +100,15 @@
 				104A7FAA29A2001500B46D92 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1058F75529ACE12100E55029 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1058F75729ACE1D400E55029 /* sound1.wav */,
+				1058F75629ACE1D400E55029 /* sound2.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1058F75929ACE1D400E55029 /* sound1.wav in Resources */,
+				1058F75829ACE1D400E55029 /* sound2.wav in Resources */,
 				104A7FAB29A2001500B46D92 /* Preview Assets.xcassets in Resources */,
 				104A7FA829A2001500B46D92 /* Assets.xcassets in Resources */,
 			);
@@ -167,6 +186,7 @@
 				104A7FBB29A25FEE00B46D92 /* RotationGestures.swift in Sources */,
 				10CB94FE29AB98FF0015A7E3 /* MultipleSheetsTut.swift in Sources */,
 				10CB94FC29AB8A8A0015A7E3 /* GeometryReaders.swift in Sources */,
+				1058F75429ACD6F900E55029 /* Sounds.swift in Sources */,
 				102F07CC29A5F5EB000AF1BD /* DragGestures.swift in Sources */,
 				104A7FA629A2001200B46D92 /* ContentView.swift in Sources */,
 				1058F75229ACC00F00E55029 /* Masks.swift in Sources */,
