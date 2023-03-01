@@ -24,6 +24,10 @@
 		1058F75D29AD1B6300E55029 /* LocalPushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058F75C29AD1B6300E55029 /* LocalPushNotifications.swift */; };
 		1058F75F29AD370A00E55029 /* HashableSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058F75E29AD370A00E55029 /* HashableSwiftUI.swift */; };
 		1058F76129AD427100E55029 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1058F76029AD427100E55029 /* Arrays.swift */; };
+		1060D9AA29AF2EE0007EB6C8 /* CoreDataTut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1060D9A929AF2EE0007EB6C8 /* CoreDataTut.swift */; };
+		1060D9AD29AF32C0007EB6C8 /* FruitsContainner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1060D9AB29AF32C0007EB6C8 /* FruitsContainner.xcdatamodeld */; };
+		1060D9E729AF8EE3007EB6C8 /* CoreDataRelationShips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1060D9E629AF8EE3007EB6C8 /* CoreDataRelationShips.swift */; };
+		1060D9EA29AF92BC007EB6C8 /* CoreDataContainner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1060D9E829AF92BC007EB6C8 /* CoreDataContainner.xcdatamodeld */; };
 		10CB94FA29AB60B60015A7E3 /* ScrollViewReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */; };
 		10CB94FC29AB8A8A0015A7E3 /* GeometryReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */; };
 		10CB94FE29AB98FF0015A7E3 /* MultipleSheetsTut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94FD29AB98FF0015A7E3 /* MultipleSheetsTut.swift */; };
@@ -48,6 +52,10 @@
 		1058F75C29AD1B6300E55029 /* LocalPushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushNotifications.swift; sourceTree = "<group>"; };
 		1058F75E29AD370A00E55029 /* HashableSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableSwiftUI.swift; sourceTree = "<group>"; };
 		1058F76029AD427100E55029 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
+		1060D9A929AF2EE0007EB6C8 /* CoreDataTut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTut.swift; sourceTree = "<group>"; };
+		1060D9AC29AF32C0007EB6C8 /* FruitsContainner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainner.xcdatamodel; sourceTree = "<group>"; };
+		1060D9E629AF8EE3007EB6C8 /* CoreDataRelationShips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationShips.swift; sourceTree = "<group>"; };
+		1060D9E929AF92BC007EB6C8 /* CoreDataContainner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainner.xcdatamodel; sourceTree = "<group>"; };
 		10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaders.swift; sourceTree = "<group>"; };
 		10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaders.swift; sourceTree = "<group>"; };
 		10CB94FD29AB98FF0015A7E3 /* MultipleSheetsTut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsTut.swift; sourceTree = "<group>"; };
@@ -100,6 +108,10 @@
 				1058F75C29AD1B6300E55029 /* LocalPushNotifications.swift */,
 				1058F75E29AD370A00E55029 /* HashableSwiftUI.swift */,
 				1058F76029AD427100E55029 /* Arrays.swift */,
+				1060D9A929AF2EE0007EB6C8 /* CoreDataTut.swift */,
+				1060D9E629AF8EE3007EB6C8 /* CoreDataRelationShips.swift */,
+				1060D9E829AF92BC007EB6C8 /* CoreDataContainner.xcdatamodeld */,
+				1060D9AB29AF32C0007EB6C8 /* FruitsContainner.xcdatamodeld */,
 				104A7FA729A2001500B46D92 /* Assets.xcassets */,
 				104A7FA929A2001500B46D92 /* Preview Content */,
 			);
@@ -199,8 +211,10 @@
 				10CB94FE29AB98FF0015A7E3 /* MultipleSheetsTut.swift in Sources */,
 				10CB94FC29AB8A8A0015A7E3 /* GeometryReaders.swift in Sources */,
 				1058F75F29AD370A00E55029 /* HashableSwiftUI.swift in Sources */,
+				1060D9AA29AF2EE0007EB6C8 /* CoreDataTut.swift in Sources */,
 				1058F75429ACD6F900E55029 /* Sounds.swift in Sources */,
 				1058F75D29AD1B6300E55029 /* LocalPushNotifications.swift in Sources */,
+				1060D9EA29AF92BC007EB6C8 /* CoreDataContainner.xcdatamodeld in Sources */,
 				102F07CC29A5F5EB000AF1BD /* DragGestures.swift in Sources */,
 				104A7FA629A2001200B46D92 /* ContentView.swift in Sources */,
 				1058F75229ACC00F00E55029 /* Masks.swift in Sources */,
@@ -209,6 +223,8 @@
 				104A7FB929A24CBF00B46D92 /* MagnificationGestures.swift in Sources */,
 				1058F75B29ACFE6600E55029 /* Hapittics.swift in Sources */,
 				104A7FA429A2001200B46D92 /* CompleteSwiftUIProjectApp.swift in Sources */,
+				1060D9AD29AF32C0007EB6C8 /* FruitsContainner.xcdatamodeld in Sources */,
+				1060D9E729AF8EE3007EB6C8 /* CoreDataRelationShips.swift in Sources */,
 				10CB94FA29AB60B60015A7E3 /* ScrollViewReaders.swift in Sources */,
 				104A7FB229A2005400B46D92 /* LongPressGestures.swift in Sources */,
 			);
@@ -409,6 +425,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1060D9AB29AF32C0007EB6C8 /* FruitsContainner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1060D9AC29AF32C0007EB6C8 /* FruitsContainner.xcdatamodel */,
+			);
+			currentVersion = 1060D9AC29AF32C0007EB6C8 /* FruitsContainner.xcdatamodel */;
+			path = FruitsContainner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		1060D9E829AF92BC007EB6C8 /* CoreDataContainner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1060D9E929AF92BC007EB6C8 /* CoreDataContainner.xcdatamodel */,
+			);
+			currentVersion = 1060D9E929AF92BC007EB6C8 /* CoreDataContainner.xcdatamodel */;
+			path = CoreDataContainner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 104A7F9829A2001200B46D92 /* Project object */;
 }
