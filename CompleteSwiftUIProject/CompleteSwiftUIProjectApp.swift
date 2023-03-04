@@ -11,7 +11,7 @@ import SwiftUI
 struct CompleteSwiftUIProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            CoreDataRelationShips()
+            CodableSui()
         }
     }
 }

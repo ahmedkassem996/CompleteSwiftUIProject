@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1009A6A829B3960F0030F704 /* CodableSui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1009A6A729B3960F0030F704 /* CodableSui.swift */; };
 		102F07CC29A5F5EB000AF1BD /* DragGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F07CB29A5F5EB000AF1BD /* DragGestures.swift */; };
 		102F07CE29A612A5000AF1BD /* DragGestures2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F07CD29A612A5000AF1BD /* DragGestures2.swift */; };
 		104A7FA429A2001200B46D92 /* CompleteSwiftUIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A7FA329A2001200B46D92 /* CompleteSwiftUIProjectApp.swift */; };
@@ -28,12 +29,14 @@
 		1060D9AD29AF32C0007EB6C8 /* FruitsContainner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1060D9AB29AF32C0007EB6C8 /* FruitsContainner.xcdatamodeld */; };
 		1060D9E729AF8EE3007EB6C8 /* CoreDataRelationShips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1060D9E629AF8EE3007EB6C8 /* CoreDataRelationShips.swift */; };
 		1060D9EA29AF92BC007EB6C8 /* CoreDataContainner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1060D9E829AF92BC007EB6C8 /* CoreDataContainner.xcdatamodeld */; };
+		10A2B50229B1768E0048F990 /* BackgroundThreads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A2B50129B1768E0048F990 /* BackgroundThreads.swift */; };
 		10CB94FA29AB60B60015A7E3 /* ScrollViewReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */; };
 		10CB94FC29AB8A8A0015A7E3 /* GeometryReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */; };
 		10CB94FE29AB98FF0015A7E3 /* MultipleSheetsTut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94FD29AB98FF0015A7E3 /* MultipleSheetsTut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1009A6A729B3960F0030F704 /* CodableSui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableSui.swift; sourceTree = "<group>"; };
 		102F07CB29A5F5EB000AF1BD /* DragGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures.swift; sourceTree = "<group>"; };
 		102F07CD29A612A5000AF1BD /* DragGestures2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures2.swift; sourceTree = "<group>"; };
 		104A7FA029A2001200B46D92 /* CompleteSwiftUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompleteSwiftUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +59,7 @@
 		1060D9AC29AF32C0007EB6C8 /* FruitsContainner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainner.xcdatamodel; sourceTree = "<group>"; };
 		1060D9E629AF8EE3007EB6C8 /* CoreDataRelationShips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationShips.swift; sourceTree = "<group>"; };
 		1060D9E929AF92BC007EB6C8 /* CoreDataContainner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainner.xcdatamodel; sourceTree = "<group>"; };
+		10A2B50129B1768E0048F990 /* BackgroundThreads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreads.swift; sourceTree = "<group>"; };
 		10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaders.swift; sourceTree = "<group>"; };
 		10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaders.swift; sourceTree = "<group>"; };
 		10CB94FD29AB98FF0015A7E3 /* MultipleSheetsTut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsTut.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				1060D9E629AF8EE3007EB6C8 /* CoreDataRelationShips.swift */,
 				1060D9E829AF92BC007EB6C8 /* CoreDataContainner.xcdatamodeld */,
 				1060D9AB29AF32C0007EB6C8 /* FruitsContainner.xcdatamodeld */,
+				10A2B50129B1768E0048F990 /* BackgroundThreads.swift */,
+				1009A6A729B3960F0030F704 /* CodableSui.swift */,
 				104A7FA729A2001500B46D92 /* Assets.xcassets */,
 				104A7FA929A2001500B46D92 /* Preview Content */,
 			);
@@ -207,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A2B50229B1768E0048F990 /* BackgroundThreads.swift in Sources */,
 				104A7FBB29A25FEE00B46D92 /* RotationGestures.swift in Sources */,
 				10CB94FE29AB98FF0015A7E3 /* MultipleSheetsTut.swift in Sources */,
 				10CB94FC29AB8A8A0015A7E3 /* GeometryReaders.swift in Sources */,
@@ -222,6 +229,7 @@
 				102F07CE29A612A5000AF1BD /* DragGestures2.swift in Sources */,
 				104A7FB929A24CBF00B46D92 /* MagnificationGestures.swift in Sources */,
 				1058F75B29ACFE6600E55029 /* Hapittics.swift in Sources */,
+				1009A6A829B3960F0030F704 /* CodableSui.swift in Sources */,
 				104A7FA429A2001200B46D92 /* CompleteSwiftUIProjectApp.swift in Sources */,
 				1060D9AD29AF32C0007EB6C8 /* FruitsContainner.xcdatamodeld in Sources */,
 				1060D9E729AF8EE3007EB6C8 /* CoreDataRelationShips.swift in Sources */,
