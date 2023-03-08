@@ -10,6 +10,7 @@
 		1009A6A829B3960F0030F704 /* CodableSui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1009A6A729B3960F0030F704 /* CodableSui.swift */; };
 		102F07CC29A5F5EB000AF1BD /* DragGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F07CB29A5F5EB000AF1BD /* DragGestures.swift */; };
 		102F07CE29A612A5000AF1BD /* DragGestures2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F07CD29A612A5000AF1BD /* DragGestures2.swift */; };
+		1043C74C29B7F75900004CB8 /* DownloadWithEscaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1043C74B29B7F75900004CB8 /* DownloadWithEscaping.swift */; };
 		104A7FA429A2001200B46D92 /* CompleteSwiftUIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A7FA329A2001200B46D92 /* CompleteSwiftUIProjectApp.swift */; };
 		104A7FA629A2001200B46D92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A7FA529A2001200B46D92 /* ContentView.swift */; };
 		104A7FA829A2001500B46D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104A7FA729A2001500B46D92 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		1009A6A729B3960F0030F704 /* CodableSui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableSui.swift; sourceTree = "<group>"; };
 		102F07CB29A5F5EB000AF1BD /* DragGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures.swift; sourceTree = "<group>"; };
 		102F07CD29A612A5000AF1BD /* DragGestures2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestures2.swift; sourceTree = "<group>"; };
+		1043C74B29B7F75900004CB8 /* DownloadWithEscaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscaping.swift; sourceTree = "<group>"; };
 		104A7FA029A2001200B46D92 /* CompleteSwiftUIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompleteSwiftUIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		104A7FA329A2001200B46D92 /* CompleteSwiftUIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSwiftUIProjectApp.swift; sourceTree = "<group>"; };
 		104A7FA529A2001200B46D92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				1060D9AB29AF32C0007EB6C8 /* FruitsContainner.xcdatamodeld */,
 				10A2B50129B1768E0048F990 /* BackgroundThreads.swift */,
 				1009A6A729B3960F0030F704 /* CodableSui.swift */,
+				1043C74B29B7F75900004CB8 /* DownloadWithEscaping.swift */,
 				104A7FA729A2001500B46D92 /* Assets.xcassets */,
 				104A7FA929A2001500B46D92 /* Preview Content */,
 			);
@@ -228,6 +231,7 @@
 				1058F76129AD427100E55029 /* Arrays.swift in Sources */,
 				102F07CE29A612A5000AF1BD /* DragGestures2.swift in Sources */,
 				104A7FB929A24CBF00B46D92 /* MagnificationGestures.swift in Sources */,
+				1043C74C29B7F75900004CB8 /* DownloadWithEscaping.swift in Sources */,
 				1058F75B29ACFE6600E55029 /* Hapittics.swift in Sources */,
 				1009A6A829B3960F0030F704 /* CodableSui.swift in Sources */,
 				104A7FA429A2001200B46D92 /* CompleteSwiftUIProjectApp.swift in Sources */,
