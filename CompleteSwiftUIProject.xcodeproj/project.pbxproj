@@ -30,6 +30,7 @@
 		1060D9AD29AF32C0007EB6C8 /* FruitsContainner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1060D9AB29AF32C0007EB6C8 /* FruitsContainner.xcdatamodeld */; };
 		1060D9E729AF8EE3007EB6C8 /* CoreDataRelationShips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1060D9E629AF8EE3007EB6C8 /* CoreDataRelationShips.swift */; };
 		1060D9EA29AF92BC007EB6C8 /* CoreDataContainner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1060D9E829AF92BC007EB6C8 /* CoreDataContainner.xcdatamodeld */; };
+		1085C16029B8C064004560BC /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085C15F29B8C064004560BC /* DownloadWithCombine.swift */; };
 		10A2B50229B1768E0048F990 /* BackgroundThreads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A2B50129B1768E0048F990 /* BackgroundThreads.swift */; };
 		10CB94FA29AB60B60015A7E3 /* ScrollViewReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */; };
 		10CB94FC29AB8A8A0015A7E3 /* GeometryReaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */; };
@@ -61,6 +62,7 @@
 		1060D9AC29AF32C0007EB6C8 /* FruitsContainner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainner.xcdatamodel; sourceTree = "<group>"; };
 		1060D9E629AF8EE3007EB6C8 /* CoreDataRelationShips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationShips.swift; sourceTree = "<group>"; };
 		1060D9E929AF92BC007EB6C8 /* CoreDataContainner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainner.xcdatamodel; sourceTree = "<group>"; };
+		1085C15F29B8C064004560BC /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
 		10A2B50129B1768E0048F990 /* BackgroundThreads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreads.swift; sourceTree = "<group>"; };
 		10CB94F929AB60B60015A7E3 /* ScrollViewReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaders.swift; sourceTree = "<group>"; };
 		10CB94FB29AB8A8A0015A7E3 /* GeometryReaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaders.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				10A2B50129B1768E0048F990 /* BackgroundThreads.swift */,
 				1009A6A729B3960F0030F704 /* CodableSui.swift */,
 				1043C74B29B7F75900004CB8 /* DownloadWithEscaping.swift */,
+				1085C15F29B8C064004560BC /* DownloadWithCombine.swift */,
 				104A7FA729A2001500B46D92 /* Assets.xcassets */,
 				104A7FA929A2001500B46D92 /* Preview Content */,
 			);
@@ -221,6 +224,7 @@
 				10CB94FE29AB98FF0015A7E3 /* MultipleSheetsTut.swift in Sources */,
 				10CB94FC29AB8A8A0015A7E3 /* GeometryReaders.swift in Sources */,
 				1058F75F29AD370A00E55029 /* HashableSwiftUI.swift in Sources */,
+				1085C16029B8C064004560BC /* DownloadWithCombine.swift in Sources */,
 				1060D9AA29AF2EE0007EB6C8 /* CoreDataTut.swift in Sources */,
 				1058F75429ACD6F900E55029 /* Sounds.swift in Sources */,
 				1058F75D29AD1B6300E55029 /* LocalPushNotifications.swift in Sources */,
